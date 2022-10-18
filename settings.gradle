@@ -1,0 +1,6 @@
+rootProject.name = 'spring-multimodule-group-apps-first'
+include 'applications:api'
+include 'applications:batch'
+include 'common:core'
+include 'domains:domain-api-h2'
+include 'domains:domain-batch-h2'
