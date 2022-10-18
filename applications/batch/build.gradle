@@ -23,7 +23,7 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 
-    implementation(project(":domains:domain-api-h2"))
+    implementation(project(":domains:domain-batch-h2"))
 }
 
 tasks.named('test') {

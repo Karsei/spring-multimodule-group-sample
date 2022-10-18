@@ -4,11 +4,3 @@ plugins {
 
 group = 'kr.pe.karsei'
 version = '0.0.1-SNAPSHOT'
-
-project(':applications:api') {
-    apply plugin: 'java'
-    dependencies {
-        implementation project(':common:core')
-        implementation project(':domains:domain-api-h2')
-    }
-}
