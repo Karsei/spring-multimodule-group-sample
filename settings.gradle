@@ -1,4 +1,4 @@
-rootProject.name = 'spring-multimodule-group-apps-first'
+rootProject.name = 'spring-multimodule-grouping-sample'
 include 'applications:api'
 include 'applications:batch'
 include 'common:core'
